@@ -1,4 +1,4 @@
-% Forth-order Approximate symplectic precise integration method 
+% Forth-order nearly symplectic precise integration method 
 clear;close all;
 clc;
 w=50;               % frequency 
@@ -55,7 +55,7 @@ E=pe-V(1,:);
 plot(t,E,'k')
 grid on
 xlabel('t(s)')
-ylabel('\it{R_{u}}')
+ylabel('\it{E_{u}}')
 grid on
 set(gca,'FontSize',12);
 set(gcf,'Position',[100 100 500 350])

@@ -1,4 +1,4 @@
-% Forth-order Approximate symplectic precise integration method 
+% Forth-order nearly symplectic precise integration method 
 clear;close all;
 clc;
 w=50;

@@ -48,7 +48,7 @@ subplot(2,1,2)
 plot(t,q1-pe)
 grid on
 xlabel('Time/(s)')
-ylabel('\it R_{u}','FontName','Helvetica')
+ylabel('\it E_{u}','FontName','Helvetica')
 grid on
 set(gca,'FontName','Helvetica ','FontSize',12);
 set(gcf,'Position',[100 100 500 350])
