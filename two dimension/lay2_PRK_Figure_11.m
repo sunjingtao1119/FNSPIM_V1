@@ -77,7 +77,7 @@ u = zeros(number_of_notes,1);
 uold=u;
 vold=u;
 f=zeros(number_of_notes,1);
-tic
+
 % isrc=ne/2;
 
 nt=1500;
@@ -98,26 +98,26 @@ v4=v3+d4*dt.*(-L*u4+Minv*f);
 uold=u4;
 vold=v4; 
 % u4(boundarynodes) = 0;
-disp(i,:)=u4(indrec(:,1));
+% disp(i,:)=u4(indrec(:,1));
 
-%  if i==100
-%  save PU100.mat u4
-%  end
-%  if i==500
-%  save PU500.mat u4
-%  end
+ if i==100
+ save PU100.mat u4
+ end
+ if i==500
+ save PU500.mat u4
+ end
 %  disp(i)=u4(rec1(1));
 %%
-trisurf(Top, p(:,1), p(:,2), u4)
-
-colorbar
-clim([-1e-8,1e-8]);
-
-colormap(gca,[seiscolor]);
- shading interp
- view([90,90])
- drawnow() 
+% trisurf(Top, p(:,1), p(:,2), u4)
+% 
+% colorbar
+% clim([-1e-8,1e-8]);
+% 
+% colormap(gca,[seiscolor]);
+%  shading interp
+%  view([90,90])
+%  drawnow() 
  %%
 end
- toc
+
 
