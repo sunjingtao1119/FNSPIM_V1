@@ -139,15 +139,15 @@ for it =1:500
  save U500.mat U
  end
 
-    trisurf(Top, p(:,1), p(:,2), U)
-     colorbar
-     clim([-1e-8,1e-8])
-     tsr=num2str(it);
-     title(tsr)
-    shading interp
-    colormap(gca,[seiscolor])
-    view([90,90])
-    drawnow() 
+%     trisurf(Top, p(:,1), p(:,2), U)
+%      colorbar
+%      clim([-1e-8,1e-8])
+%      tsr=num2str(it);
+%      title(tsr)
+%     shading interp
+%     colormap(gca,[seiscolor])
+%     view([90,90])
+%     drawnow() 
 end
 
 
