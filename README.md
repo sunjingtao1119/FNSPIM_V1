@@ -20,3 +20,5 @@
 ​     Run the  figure11_a.m file in the folder to get the picture in the paper.
 
 ​     Run the  figure11_b.m file in the folder to get the picture in the paper.
+
+​    The Marmousi mode could download form: http://www.agl.uh.edu/downloads/modeling_grids/MODEL_P-WAVE_VELOCITY_1.25m.segy.zip
